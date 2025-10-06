@@ -1,0 +1,37 @@
+input, select {
+  border-radius: 10px !important;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+input:focus, select:focus {
+  border-color: #004e92;
+  box-shadow: 0 0 5px #004e92;
+}
+
+button, .btn {
+  border-radius: 20px !important;
+  transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+  transform: scale(1.05);
+}
+
+.table {
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+thead {
+  background-color: #004e92;
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f6ff;
+}

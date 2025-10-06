@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="text-center mt-4">
+  <h2 style="animation: glow 2s ease-in-out infinite alternate;">
+    🚀 Welcome to Smart Inventory Management
+  </h2>
+  <p class="lead mt-3">A modern, simple and efficient way to manage your products and locations.</p>
+  <a href="/products" class="btn btn-primary px-4 py-2 mt-3">Get Started</a>
+</div>
+
+<style>
+@keyframes glow {
+  from { text-shadow: 0 0 5px #004e92, 0 0 10px #007bff; }
+  to { text-shadow: 0 0 20px #00c6ff, 0 0 30px #004e92; }
+}
+</style>
+{% endblock %}
